@@ -1,0 +1,18 @@
+@import 'functions';
+
+/* Define standard variables and values for website */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
+
+p{
+    color: rgb(204, 18, 80);
+    font-size: pow(2,7);
+}
